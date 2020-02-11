@@ -1,0 +1,4 @@
+#Sat Feb 01 10:32:40 IST 2020
+base.0=E\:\\FFmpegRecorder-master\\MyApplication2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\4
+path.0=classes.dex
+renamed.0=classes.dex

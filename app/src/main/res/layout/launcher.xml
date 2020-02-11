@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    tools:context=".MainActivity">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/conversation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/userInput"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginBottom="1dp"
+        android:textSize="16sp"
+        android:visibility="visible" />
+
+    <TextureView
+        android:id="@+id/surface_view"
+        android:layout_width="match_parent"
+        android:layout_height="499dp"
+        android:layout_marginBottom="14dp"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/userInput"
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="-1dp"
+        android:autofillHints=""
+        android:background="@drawable/bg_edit_text"
+        android:fontFamily="@font/montserrat"
+        android:hint="Enter Your Text"
+        android:imeActionId="4"
+        android:imeOptions="actionSend"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="20sp"
+        tools:ignore="UnusedAttribute" />
+
+    <ImageButton
+        android:id="@+id/mic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="384dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="0dp"
+        android:onClick="Display"
+        android:src="@android:drawable/ic_btn_speak_now"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/camera"
+        android:layout_width="43dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="384dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="0dp"
+        android:onClick="CapturePicture"
+        android:src="@android:drawable/ic_menu_camera"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/video"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:clickable="true"
+        android:contentDescription="TODO"
+        android:longClickable="true"
+        android:src="@android:drawable/presence_video_online"
+        android:visibility="visible" />
+
+
+
+</RelativeLayout>
+

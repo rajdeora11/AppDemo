@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    <TextView
         android:id="@+id/textMessage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:elevation="1dp"
-        android:background="@drawable/bot_bubble"
-        android:padding="11dp"
         android:fontFamily="@font/montserrat"
+        android:padding="11dp"
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="20sp" />
-</RelativeLayout>
+        android:textSize="20sp"
+        tools:text="@tools:sample/full_names" />
+</FrameLayout>

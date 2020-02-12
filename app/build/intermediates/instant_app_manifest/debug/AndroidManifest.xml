@@ -12,6 +12,7 @@
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <uses-feature android:name="android.hardware.camera" />
 
@@ -28,7 +29,7 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.raj.myapplication.HomeActivity"
+            android:name="com.raj.myapplication.SplashScreen"
             android:noHistory="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -37,8 +38,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.raj.myapplication.videoPlayActivity" />
-        <activity android:name="com.raj.myapplication.MainActivity" >
-        </activity>
+        <activity android:name="com.raj.myapplication.MainActivity" />
         <activity
             android:name="com.gun0912.tedpermission.TedPermissionActivity"
             android:configChanges="mcc|mnc|locale|keyboard|keyboardHidden|screenLayout|fontScale|uiMode|orientation|screenSize|layoutDirection"

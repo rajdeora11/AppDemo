@@ -6,80 +6,82 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="17"
-8-->/home/rajpal/AndroidStudioProjects/MyApplication2-20200202T062808Z-001/MyApplication2/app/src/main/AndroidManifest.xml
+8-->/home/nischaysingla/AndroidStudioProjects/AppDemo/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->/home/rajpal/AndroidStudioProjects/MyApplication2-20200202T062808Z-001/MyApplication2/app/src/main/AndroidManifest.xml
+9-->/home/nischaysingla/AndroidStudioProjects/AppDemo/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.CAMERA" />
-11-->/home/rajpal/AndroidStudioProjects/MyApplication2-20200202T062808Z-001/MyApplication2/app/src/main/AndroidManifest.xml:6:5-65
-11-->/home/rajpal/AndroidStudioProjects/MyApplication2-20200202T062808Z-001/MyApplication2/app/src/main/AndroidManifest.xml:6:22-62
+11-->/home/nischaysingla/AndroidStudioProjects/AppDemo/app/src/main/AndroidManifest.xml:5:5-65
+11-->/home/nischaysingla/AndroidStudioProjects/AppDemo/app/src/main/AndroidManifest.xml:5:22-62
 12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-12-->/home/rajpal/AndroidStudioProjects/MyApplication2-20200202T062808Z-001/MyApplication2/app/src/main/AndroidManifest.xml:7:5-81
-12-->/home/rajpal/AndroidStudioProjects/MyApplication2-20200202T062808Z-001/MyApplication2/app/src/main/AndroidManifest.xml:7:22-78
+12-->/home/nischaysingla/AndroidStudioProjects/AppDemo/app/src/main/AndroidManifest.xml:6:5-81
+12-->/home/nischaysingla/AndroidStudioProjects/AppDemo/app/src/main/AndroidManifest.xml:6:22-78
 13    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-13-->/home/rajpal/AndroidStudioProjects/MyApplication2-20200202T062808Z-001/MyApplication2/app/src/main/AndroidManifest.xml:8:5-71
-13-->/home/rajpal/AndroidStudioProjects/MyApplication2-20200202T062808Z-001/MyApplication2/app/src/main/AndroidManifest.xml:8:22-68
-14
-15    <uses-feature android:name="android.hardware.camera" />
-15-->/home/rajpal/AndroidStudioProjects/MyApplication2-20200202T062808Z-001/MyApplication2/app/src/main/AndroidManifest.xml:10:5-60
-15-->/home/rajpal/AndroidStudioProjects/MyApplication2-20200202T062808Z-001/MyApplication2/app/src/main/AndroidManifest.xml:10:19-57
-16
-17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-17-->/home/rajpal/AndroidStudioProjects/MyApplication2-20200202T062808Z-001/MyApplication2/app/src/main/AndroidManifest.xml:7:5-81
-17-->/home/rajpal/AndroidStudioProjects/MyApplication2-20200202T062808Z-001/MyApplication2/app/src/main/AndroidManifest.xml:7:22-78
-18
-19    <application
-19-->/home/rajpal/AndroidStudioProjects/MyApplication2-20200202T062808Z-001/MyApplication2/app/src/main/AndroidManifest.xml:14:5-31:19
-20        android:allowBackup="true"
-20-->/home/rajpal/AndroidStudioProjects/MyApplication2-20200202T062808Z-001/MyApplication2/app/src/main/AndroidManifest.xml:15:9-35
-21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-21-->[androidx.core:core:1.1.0] /home/rajpal/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/AndroidManifest.xml:24:18-86
-22        android:debuggable="true"
-23        android:icon="@mipmap/ic_launcher"
-23-->/home/rajpal/AndroidStudioProjects/MyApplication2-20200202T062808Z-001/MyApplication2/app/src/main/AndroidManifest.xml:16:9-43
-24        android:label="@string/app_name"
-24-->/home/rajpal/AndroidStudioProjects/MyApplication2-20200202T062808Z-001/MyApplication2/app/src/main/AndroidManifest.xml:17:9-41
-25        android:roundIcon="@mipmap/ic_launcher_round"
-25-->/home/rajpal/AndroidStudioProjects/MyApplication2-20200202T062808Z-001/MyApplication2/app/src/main/AndroidManifest.xml:18:9-54
-26        android:supportsRtl="true"
-26-->/home/rajpal/AndroidStudioProjects/MyApplication2-20200202T062808Z-001/MyApplication2/app/src/main/AndroidManifest.xml:19:9-35
-27        android:testOnly="true"
-28        android:theme="@style/AppTheme" >
-28-->/home/rajpal/AndroidStudioProjects/MyApplication2-20200202T062808Z-001/MyApplication2/app/src/main/AndroidManifest.xml:20:9-40
-29        <activity
-29-->/home/rajpal/AndroidStudioProjects/MyApplication2-20200202T062808Z-001/MyApplication2/app/src/main/AndroidManifest.xml:21:9-27:20
-30            android:name="com.raj.myapplication.HomeActivity"
-30-->/home/rajpal/AndroidStudioProjects/MyApplication2-20200202T062808Z-001/MyApplication2/app/src/main/AndroidManifest.xml:21:19-47
-31            android:noHistory="true" >
-31-->/home/rajpal/AndroidStudioProjects/MyApplication2-20200202T062808Z-001/MyApplication2/app/src/main/AndroidManifest.xml:21:48-72
-32            <intent-filter>
-32-->/home/rajpal/AndroidStudioProjects/MyApplication2-20200202T062808Z-001/MyApplication2/app/src/main/AndroidManifest.xml:22:13-26:29
-33                <action android:name="android.intent.action.MAIN" />
-33-->/home/rajpal/AndroidStudioProjects/MyApplication2-20200202T062808Z-001/MyApplication2/app/src/main/AndroidManifest.xml:23:17-69
-33-->/home/rajpal/AndroidStudioProjects/MyApplication2-20200202T062808Z-001/MyApplication2/app/src/main/AndroidManifest.xml:23:25-66
-34
-35                <category android:name="android.intent.category.LAUNCHER" />
-35-->/home/rajpal/AndroidStudioProjects/MyApplication2-20200202T062808Z-001/MyApplication2/app/src/main/AndroidManifest.xml:25:17-77
-35-->/home/rajpal/AndroidStudioProjects/MyApplication2-20200202T062808Z-001/MyApplication2/app/src/main/AndroidManifest.xml:25:27-74
-36            </intent-filter>
-37        </activity>
-38        <activity android:name="com.raj.myapplication.videoPlayActivity" />
-38-->/home/rajpal/AndroidStudioProjects/MyApplication2-20200202T062808Z-001/MyApplication2/app/src/main/AndroidManifest.xml:28:9-55
-38-->/home/rajpal/AndroidStudioProjects/MyApplication2-20200202T062808Z-001/MyApplication2/app/src/main/AndroidManifest.xml:28:19-52
-39        <activity android:name="com.raj.myapplication.MainActivity" >
-39-->/home/rajpal/AndroidStudioProjects/MyApplication2-20200202T062808Z-001/MyApplication2/app/src/main/AndroidManifest.xml:29:9-30:20
-39-->/home/rajpal/AndroidStudioProjects/MyApplication2-20200202T062808Z-001/MyApplication2/app/src/main/AndroidManifest.xml:29:19-47
-40        </activity>
+13-->/home/nischaysingla/AndroidStudioProjects/AppDemo/app/src/main/AndroidManifest.xml:7:5-71
+13-->/home/nischaysingla/AndroidStudioProjects/AppDemo/app/src/main/AndroidManifest.xml:7:22-68
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/home/nischaysingla/AndroidStudioProjects/AppDemo/app/src/main/AndroidManifest.xml:8:5-67
+14-->/home/nischaysingla/AndroidStudioProjects/AppDemo/app/src/main/AndroidManifest.xml:8:22-64
+15
+16    <uses-feature android:name="android.hardware.camera" />
+16-->/home/nischaysingla/AndroidStudioProjects/AppDemo/app/src/main/AndroidManifest.xml:10:5-60
+16-->/home/nischaysingla/AndroidStudioProjects/AppDemo/app/src/main/AndroidManifest.xml:10:19-57
+17
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->/home/nischaysingla/AndroidStudioProjects/AppDemo/app/src/main/AndroidManifest.xml:6:5-81
+18-->/home/nischaysingla/AndroidStudioProjects/AppDemo/app/src/main/AndroidManifest.xml:6:22-78
+19
+20    <application
+20-->/home/nischaysingla/AndroidStudioProjects/AppDemo/app/src/main/AndroidManifest.xml:14:5-32:19
+21        android:allowBackup="true"
+21-->/home/nischaysingla/AndroidStudioProjects/AppDemo/app/src/main/AndroidManifest.xml:15:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.1.0] /home/nischaysingla/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:icon="@mipmap/ic_launcher"
+24-->/home/nischaysingla/AndroidStudioProjects/AppDemo/app/src/main/AndroidManifest.xml:16:9-43
+25        android:label="@string/app_name"
+25-->/home/nischaysingla/AndroidStudioProjects/AppDemo/app/src/main/AndroidManifest.xml:17:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->/home/nischaysingla/AndroidStudioProjects/AppDemo/app/src/main/AndroidManifest.xml:18:9-54
+27        android:supportsRtl="true"
+27-->/home/nischaysingla/AndroidStudioProjects/AppDemo/app/src/main/AndroidManifest.xml:19:9-35
+28        android:testOnly="true"
+29        android:theme="@style/AppTheme" >
+29-->/home/nischaysingla/AndroidStudioProjects/AppDemo/app/src/main/AndroidManifest.xml:20:9-40
+30        <activity
+30-->/home/nischaysingla/AndroidStudioProjects/AppDemo/app/src/main/AndroidManifest.xml:21:9-29:20
+31            android:name="com.raj.myapplication.SplashScreen"
+31-->/home/nischaysingla/AndroidStudioProjects/AppDemo/app/src/main/AndroidManifest.xml:22:13-41
+32            android:noHistory="true" >
+32-->/home/nischaysingla/AndroidStudioProjects/AppDemo/app/src/main/AndroidManifest.xml:23:13-37
+33            <intent-filter>
+33-->/home/nischaysingla/AndroidStudioProjects/AppDemo/app/src/main/AndroidManifest.xml:24:13-28:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->/home/nischaysingla/AndroidStudioProjects/AppDemo/app/src/main/AndroidManifest.xml:25:17-69
+34-->/home/nischaysingla/AndroidStudioProjects/AppDemo/app/src/main/AndroidManifest.xml:25:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->/home/nischaysingla/AndroidStudioProjects/AppDemo/app/src/main/AndroidManifest.xml:27:17-77
+36-->/home/nischaysingla/AndroidStudioProjects/AppDemo/app/src/main/AndroidManifest.xml:27:27-74
+37            </intent-filter>
+38        </activity>
+39        <activity android:name="com.raj.myapplication.videoPlayActivity" />
+39-->/home/nischaysingla/AndroidStudioProjects/AppDemo/app/src/main/AndroidManifest.xml:30:9-55
+39-->/home/nischaysingla/AndroidStudioProjects/AppDemo/app/src/main/AndroidManifest.xml:30:19-52
+40        <activity android:name="com.raj.myapplication.MainActivity" />
+40-->/home/nischaysingla/AndroidStudioProjects/AppDemo/app/src/main/AndroidManifest.xml:31:9-59
+40-->/home/nischaysingla/AndroidStudioProjects/AppDemo/app/src/main/AndroidManifest.xml:31:19-47
 41        <activity
-41-->[gun0912.ted:tedpermission:2.2.3] /home/rajpal/.gradle/caches/transforms-2/files-2.1/a4664c1e6d0b40f0ed5748c0ac932cd3/jetified-tedpermission-2.2.3/AndroidManifest.xml:10:9-14:67
+41-->[gun0912.ted:tedpermission:2.2.3] /home/nischaysingla/.gradle/caches/transforms-2/files-2.1/c25f8f078d68a6de780a7385c825cc7e/jetified-tedpermission-2.2.3/AndroidManifest.xml:10:9-14:67
 42            android:name="com.gun0912.tedpermission.TedPermissionActivity"
-42-->[gun0912.ted:tedpermission:2.2.3] /home/rajpal/.gradle/caches/transforms-2/files-2.1/a4664c1e6d0b40f0ed5748c0ac932cd3/jetified-tedpermission-2.2.3/AndroidManifest.xml:11:13-75
+42-->[gun0912.ted:tedpermission:2.2.3] /home/nischaysingla/.gradle/caches/transforms-2/files-2.1/c25f8f078d68a6de780a7385c825cc7e/jetified-tedpermission-2.2.3/AndroidManifest.xml:11:13-75
 43            android:configChanges="mcc|mnc|locale|keyboard|keyboardHidden|screenLayout|fontScale|uiMode|orientation|screenSize|layoutDirection"
-43-->[gun0912.ted:tedpermission:2.2.3] /home/rajpal/.gradle/caches/transforms-2/files-2.1/a4664c1e6d0b40f0ed5748c0ac932cd3/jetified-tedpermission-2.2.3/AndroidManifest.xml:12:13-144
+43-->[gun0912.ted:tedpermission:2.2.3] /home/nischaysingla/.gradle/caches/transforms-2/files-2.1/c25f8f078d68a6de780a7385c825cc7e/jetified-tedpermission-2.2.3/AndroidManifest.xml:12:13-144
 44            android:screenOrientation="unspecified"
-44-->[gun0912.ted:tedpermission:2.2.3] /home/rajpal/.gradle/caches/transforms-2/files-2.1/a4664c1e6d0b40f0ed5748c0ac932cd3/jetified-tedpermission-2.2.3/AndroidManifest.xml:13:13-52
+44-->[gun0912.ted:tedpermission:2.2.3] /home/nischaysingla/.gradle/caches/transforms-2/files-2.1/c25f8f078d68a6de780a7385c825cc7e/jetified-tedpermission-2.2.3/AndroidManifest.xml:13:13-52
 45            android:theme="@style/Theme.Transparent.Permission" />
-45-->[gun0912.ted:tedpermission:2.2.3] /home/rajpal/.gradle/caches/transforms-2/files-2.1/a4664c1e6d0b40f0ed5748c0ac932cd3/jetified-tedpermission-2.2.3/AndroidManifest.xml:14:13-64
+45-->[gun0912.ted:tedpermission:2.2.3] /home/nischaysingla/.gradle/caches/transforms-2/files-2.1/c25f8f078d68a6de780a7385c825cc7e/jetified-tedpermission-2.2.3/AndroidManifest.xml:14:13-64
 46    </application>
 47
 48</manifest>
